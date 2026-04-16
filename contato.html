@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mundo Animal - Contato</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <a href="https://www.uniube.br" target="_blank" class="header-logo">
+      <img src="imagens/uniube.png" alt="Logo Uniube">
+    </a>
+    <div class="header-titulo">
+      <h1> Mundo Animal</h1>
+      <span>Curiosidades incríveis sobre os animais do nosso planeta</span>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="mamiferos.html">Mamíferos</a></li>
+      <li><a href="aves.html">Aves</a></li>
+      <li><a href="repteis.html">Répteis</a></li>
+      <li><a href="oceano.html">Oceano</a></li>
+      <li><a href="fotos.html">Galeria</a></li>
+      <li><a href="curiosidades.html">Curiosidades</a></li>
+      <li><a href="links.html">Links</a></li>
+      <li><a href="contato.html" class="ativo">Contato</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="page-title">
+      <h2> Fale Conosco</h2>
+      <p>Entre em contato — responderemos em breve!</p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h3>Formulário de Contato</h3>
+        <form action="#" method="post">
+
+          <div class="form-group">
+            <label for="nome">Nome completo *</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail *</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+          </div>
+
+          <div class="form-group">
+            <label for="assunto">Assunto *</label>
+            <select id="assunto" name="assunto" required>
+              <option value="">-- Selecione um assunto --</option>
+              <option value="duvida">Dúvida sobre conteúdo</option>
+              <option value="sugestao">Sugestão de tema</option>
+              <option value="erro">Reportar erro</option>
+              <option value="parceria">Proposta de parceria</option>
+              <option value="outro">Outro</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mensagem">Mensagem *</label>
+            <textarea id="mensagem" name="mensagem" rows="5"
+              placeholder="Digite sua mensagem aqui..." required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label>Como nos conheceu?</label>
+            <ul class="lista" style="list-style:none; padding:0;">
+              <li><input type="radio" name="origem" value="escola"> Escola / Faculdade</li>
+              <li><input type="radio" name="origem" value="amigo"> Indicação de amigo</li>
+              <li><input type="radio" name="origem" value="busca"> Busca na internet</li>
+              <li><input type="radio" name="origem" value="outro"> Outro</li>
+            </ul>
+          </div>
+
+          <div class="form-group">
+            <label>Interesses (pode marcar mais de um):</label>
+            <ul class="lista" style="list-style:none; padding:0;">
+              <li><input type="checkbox" name="interesse" value="mamiferos"> Mamíferos</li>
+              <li><input type="checkbox" name="interesse" value="aves"> Aves</li>
+              <li><input type="checkbox" name="interesse" value="repteis"> Répteis</li>
+              <li><input type="checkbox" name="interesse" value="oceano"> Animais do Oceano</li>
+              <li><input type="checkbox" name="interesse" value="curiosidades"> Curiosidades gerais</li>
+            </ul>
+          </div>
+
+          <button type="submit" class="btn"> Enviar Mensagem</button>
+        </form>
+      </div>
+
+      <div>
+        <div class="card">
+          <h3>Informações de Contato</h3>
+          <ul class="lista-icone">
+            <li><strong>Autor:</strong> Pedro Henrique Frasão Vieira de Carvalho</li>
+            <li><strong>RA:</strong> 5165086</li>
+            <li><strong>Curso:</strong> Engenharia da Computação</li>
+            <li><strong>Turma:</strong> </li>
+            <li><strong>E-mail:</strong> pedrofrasao@edu.uniube.br</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Horário de Atendimento</h3>
+          <table>
+            <tr>
+              <th>Dia</th>
+              <th>Horário</th>
+            </tr>
+            <tr>
+              <td>Segunda a Sexta</td>
+              <td>08h às 18h</td>
+            </tr>
+            <tr>
+              <td>Sábado</td>
+              <td>09h às 12h</td>
+            </tr>
+            <tr>
+              <td>Domingo</td>
+              <td>Fechado</td>
+            </tr>
+          </table>
+        </div>
+
+        
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p><strong>Mundo Animal</strong> — Trabalho</p>
+    <p>Aluno: <strong>Pedro Henrique Frasão Vieira de Carvalho</strong> | RA: <strong>5165086</strong></p>
+    <p>Universidade de Uberaba — Uniube</p>
+  </footer>
+
+</body>
+</html>
