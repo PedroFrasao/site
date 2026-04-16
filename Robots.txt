@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /secreto/
+
+Sitemap: https://pedrofrasao.github.io/site/sitemap.xml
